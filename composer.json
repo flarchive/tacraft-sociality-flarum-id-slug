@@ -1,0 +1,41 @@
+{
+    "name": "tacraft-sociality/flarum-id-slug",
+    "description": "Use id as slug in discussion URL.",
+    "keywords": [
+        "id",
+        "slug",
+        "slug-driver"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TaCraft-Sociality"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/TaCraft-Sociality/flarum-id-slug/issues",
+        "source": "https://github.com/TaCraft-Sociality/flarum-id-slug"
+    },
+    "homepage": "https://github.com/TaCraft-Sociality",
+    "require": {
+        "php": ">=8.3",
+        "flarum/core": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TaCraftSociality\\IdSlug\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "ID Slug",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-hashtag",
+                "backgroundColor": "#7c3aed",
+                "color": "#fff"
+            }
+        }
+    }
+}
